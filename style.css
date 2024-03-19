@@ -48,7 +48,7 @@ footer {
 
 #sobre {
     text-align: center;
-    padding: 2rem;  
+    padding: 2rem;
 }
 
 #sobre h2 {
@@ -65,4 +65,22 @@ footer {
     text-align: justify;
     line-height: 1.6;
     color: #666;
+}
+
+.texto-centro {
+    text-align: center;
+}
+
+.foto-perfil {
+    display: block;
+    margin: 0 auto;
+    /* Centraliza a imagem horizontalmente */
+    width: 200px;
+    /* Tamanho da imagem, pode ajustar conforme necessário */
+    height: 200px;
+    /* Mantenha a altura igual à largura para um círculo perfeito */
+    border-radius: 50%;
+    /* Isso cria o efeito circular */
+    object-fit: cover;
+    /* Isso garante que a imagem cubra o espaço sem perder a proporção */
 }
