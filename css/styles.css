@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 2rem;
+}
+
+h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 0.5rem;
+}
+
+.experience {
+    border: 1px solid #ddd;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    display: flex;
+    align-items: flex-start;
+}
+
+.experience img {
+    width: 100px;
+    height: auto;
+    margin-right: 1rem;
+}
+
+.experience-details {
+    flex: 1;
+}
+
+.experience-details h3 {
+    margin: 0 0 0.5rem 0;
+}
+
+.experience-details p {
+    margin: 0.5rem 0;
+}

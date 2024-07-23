@@ -4,67 +4,95 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Portfólio de Felipe</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
     <header>
+        <!-- <h1>Felipe Limeira da Silva</h1> -->
         <nav>
             <ul>
-                <li><a href="#sobre">Sobre</a></li>
-                <li><a href="#portfolio">Serviços</a></li>
-                <li><a href="#contato">Contato</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#experience">Experiências</a></li>
+                <li><a href="#projects">Projetos</a></li>
+                <li><a href="#education">Educação</a></li>
+                <li><a href="#contact">Contatos</a></li>
             </ul>
         </nav>
     </header>
+    <section id="home">
 
-    <section id="hero">
-        <h1>Felipe Limeira</h1>
-        <h2>Software Developer | WebGIS | Mentor</h2>
     </section>
 
-    <section id="sobre">
-        <img src="images/1657201310398.png" alt="Felipe Limeira" class="foto-perfil">
+    <section id="about">
         <h2>Sobre Mim</h2>
-        <div class="texto-sobre">
-            <p>Possuo mais de 5 anos de experiências com Ferramentas GIS e há 3 anos venho me especializando em
-                desenvolvimento de aplicações GIS utilizando as linguagens Python e Javascript. Atualmente trabalho como
-                Desenvolvedor de Software em uma empresa, e atuo em alguns projetos como freelancer. Além disso iniciei
-                o mestrado em Engenharia Florestal onde o objetivo é estudar sobre Inteligência Artificial e trazer a
-                ciência cada vez mais perto de aplicações do mundo real.
-            </p>
+        <p>Software developer with experience in backend development using Python and frameworks like FastAPI and
+            Django. I work with JavaScript and React on the frontend, creating interfaces. Currently, I am involved in
+            projects focusing on developing WebGIS, integrating geographic systems and web technologies.</p>
+    </section>
+
+    <section id="experience">
+        <h2>Experiências</h2>
+        <div class="experience">
+            <img src="img/logo-inpe.png" alt="INPE">
+            <div class="experience-details">
+                <h3>Instituto Nacional de Pesquisa Espacial - INPE</h3>
+                <h4>Desenvolvedor de Software</h4>
+                <p><strong>Período:</strong> 03/2024 - atual</p>
+                <p>Particação do projeto BDQueimadas, desenvolvendo WebGIS</p>
+            </div>
+        </div>
+        <div class="experience">
+            <img src="img/logo-freelance.jpg" alt="Freelance">
+            <div class="experience-details">
+                <h3>Freelancer</h3>
+                <h4>GIS Developer</h4>
+                <p><strong>Período:</strong> 04/2021 - atual</p>
+                <p>Desenvolvimento de aplicações WebGIS para clientes</p>
+            </div>
+        </div>
+        <div class="experience">
+            <img src="img/logo-zukk.jpg" alt="Zukk">
+            <div class="experience-details">
+                <h3>Zukk - Geoespacial</h3>
+                <h4>Desenvolvedor de Software</h4>
+                <p><strong>Período:</strong> 11/2022 - 10/2023</p>
+                <p>Desenvolvimento de aplicações WebGIS</p>
+            </div>
+        </div>
+        <div class="experience">
+            <img src="img/logo-quiron.jpg" alt="Quiron">
+            <div class="experience-details">
+                <h3>Quiron Digital</h3>
+                <h4>Estagiário GIS</h4>
+                <p><strong>Período:</strong> 01/2022 - 06/2022</p>
+                <p>Desenvolvimento de aplicações WebGIS</p>
+            </div>
         </div>
     </section>
 
-    <section id="portfolio">
-        <h2>Serviços</h2>
-        <div class="servicos">
-            <div class="texto-sobre">
-                <h3>GIS Developer</h3>
-                <p>Desenvolvo aplicações GIS, desde automações que envolve a criação de mapas e análises;
-                    automações de ferramentas GIS; desenvolvimento de ETL com foco em dados geoespaciais; manipulação de
-                    banco de dados Oracle e Postgres ambos utilizando extenções espaciais. E desenvolvo Backend
-                    utilizando Python e frameworks como Django e FastAPI. Além disso crio aplicações WebGIS,
-                    desenvolvendo do início ao fim a apicação.</p>
-            </div>
-            <div class="texto-sobre">
-                <h3>Mentoria</h3>
-                <p>Possuo um programa de Mentoria personalizada para pessoas que querem aprender a programar ou já
-                    programam e precisam aprender a ser autodidata. A ideia é mostrar como eu faço para aprender
-                    ferramentas novas, e também falo do mercado de Dev GIS e a importância do networking.</p>
-            </div>
+    <section id="projects">
+        <h2>Projetos</h2>
+        <ul>
+            <li><a href="https://medium.com/your-article-link">Projeto 1</a></li>
+            <li><a href="https://medium.com/your-article-link">Projeto 2</a></li>
+            <!-- Adicione mais projetos conforme necessário -->
+        </ul>
     </section>
 
-    <section id="contato">
+    <section id="education">
+        <h2>Educação</h2>
+        <p>Detalhes da sua educação.</p>
+    </section>
+
+    <section id="contact">
         <h2>Contato</h2>
-        <p>Email: limeira.felipe94@gmail.com</p>
-
+        <p>Email: <a href="limeira.felipe94@gmail.com">limeira.felipe94@gmail.com</a></p>
     </section>
 
-    <footer>
-        <p>&copy; 2024 - Felipe Limeira</p>
-    </footer>
+    <script src="js/scripts.js"></script>
 </body>
 
 </html>
